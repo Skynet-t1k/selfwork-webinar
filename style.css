@@ -1,0 +1,147 @@
+:root {
+    --aulabyellow:#ECDD0D;
+    --textnotsowhite: rgb(245, 245, 245);
+    --bgviolet: #1B1540;
+    --bgdviolet:#140925;
+}
+
+/* Background */
+.bg1 {
+    background-image: url(./media/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+.bg2 {
+    background-color: var(--bgdviolet);
+    
+}
+
+.bg3 {
+    background-image: url(./media/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    
+}
+
+.bg4 {
+    background-color: var(--bgdviolet);
+    
+}
+
+.bg5 {
+    background-image: url(./media/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+/* Fine Background */
+
+.txty {
+    color: var(--aulabyellow);
+}
+
+.txtw {
+    color:var(--textnotsowhite)
+}
+
+p {
+    color: var(--textnotsowhite);
+}
+
+footer {
+    background-color: #272727;
+}
+
+
+.logo {
+    width: 120px;
+    height: 50px;
+}
+
+.parte3 {
+    width: 370px;
+    height: 50vh;
+    padding: 10px;
+    background-color: var(--bgviolet);
+    border: 2px solid var(--bgviolet);
+    border-radius: 3%;
+    position: relative;
+    top: 15vh;
+}
+
+.cal-icon {
+    color: var(--aulabyellow);
+}
+
+.gaming-icon {
+    height: 500px;
+}
+
+.customfs{
+    font-size: 1.3rem;
+    
+}
+
+.perdisperazione{
+    position: relative;
+    top:-20px;
+    right:-14px;
+
+}
+
+.bb {
+    border-bottom: 1px solid red;
+}
+
+/* Custom button */
+.btn{
+    width: 90%;
+    height: 50px;
+    letter-spacing: 2px;
+}
+
+.btn-outline-warning {
+    color: var(--aulabyellow);
+    border: 1px solid var(--aulabyellow);
+}
+
+.btn:hover {
+    background-color: var(--aulabyellow);
+}
+/* End Custom Button */
+
+.apice {
+    position: relative;
+   
+}
+
+.apice::after {
+    content: '*';
+    position: relative;
+    top: -4px;
+    left: 2px;
+    
+    
+}
+
+@media only screen and (max-width: 700px) {
+
+    .gaming-icon {
+        height: 300px;
+    }
+    .parte3 {
+        height: 59vh;
+    }
+    
+    
+  }
